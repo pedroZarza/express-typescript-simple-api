@@ -5,7 +5,8 @@ module.exports = {
   transform: {
     "^.+.tsx?$": ["ts-jest",{}],
   },
-  // verbose: true,
-  testMatch: ["**/**/*.test.ts"]
+  verbose: true,
+  testMatch: ["**/**/*.test.ts"],
+  // detectOpenHandles: true
   
 };
