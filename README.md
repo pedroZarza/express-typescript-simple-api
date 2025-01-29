@@ -11,6 +11,7 @@ Esta es una API RESTful desarrollada en Node.js con TypeScript.
 - Implementación de tokens de acceso y refresh, blacklist con Redis.
 - Todo validado con Zod schemas.
 - MySQL DB
+- Testing mediante jest & supertest
  
 ### Stack/Dependencias Principales
 
