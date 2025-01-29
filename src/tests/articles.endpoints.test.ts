@@ -50,7 +50,7 @@ describe("Testing endpoints Artículos", () => {
         });
 
         it('devuelve status 409 si el alias con el que se quiere crear el producto ya existe en la db', async () => {
-            //@ts-ignore
+            //@ts-expect-error
             jest.spyOn(articlesRepository, "DBreadArticleByAlias").mockResolvedValue(validArticle);
 
             const response = await supertest(app)
